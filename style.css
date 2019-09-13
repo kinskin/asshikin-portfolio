@@ -1,0 +1,50 @@
+body{
+	font-family: 'Inconsolata', monospace;
+	font-size: 50px;
+}
+
+.banner{
+	background-image: url("https://technosoftacademy.io/wp-content/uploads/2018/08/web-developement-banner.png");
+	background-size: cover;
+	background-position: center;
+	height:300px;
+	width:100%;
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+}
+
+#jobdesc{
+	margin-left:20px;
+	color:white;
+}
+
+.box-status{
+	height:100px;
+	width:200px;
+}
+
+.status-box{
+	margin:30px 0;
+}
+
+#status{
+	font-size: 30px;
+	color:black;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+h3{
+	color:black;
+}
+
+p,i{
+	color: black;
+}
+
+.skill{
+	margin-top:20px;
+	margin-left:10px;
+	color:white;
+}
