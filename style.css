@@ -48,3 +48,72 @@ p,i{
 	margin-left:10px;
 	color:white;
 }
+
+#title2, #title3, #title4{
+	display:none;
+	color:yellow;
+	margin: auto;
+}
+
+#p{
+	margin-bottom:20px;
+}
+a{
+	display: inline-block;
+}
+#p2, #p3, #p4 {
+	border:1px solid black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:400px;
+	width:100%;
+}
+
+a {
+	text-decoration: none !important;
+	color:yellow;
+}
+
+a:hover {
+	color:gold;
+}
+
+#p2{
+	background-image: url('https://res.cloudinary.com/kinskin/image/upload/v1568465078/Screenshot_2019-09-14_at_8.43.35_PM_tab0gn.png');
+
+}
+
+#p3{
+	background-image: url('https://res.cloudinary.com/kinskin/image/upload/v1568461249/Screenshot_2019-09-14_at_7.38.31_PM_weug2j.png');
+}
+
+
+#p4{
+	background-image: url('https://res.cloudinary.com/kinskin/image/upload/v1568462128/Screenshot_2019-09-14_at_7.54.12_PM_vktmgy.png');
+}
+
+#p2:hover #title2, #p3:hover #title3, #p4:hover #title4{
+	display:block;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0700db, 0 0 40px #0700db, 0 0 50px #0700db, 0 0 60px #0700db, 0 0 70px #0700db;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #2681ff, 0 0 40px #2681ff, 0 0 50px #2681ff, 0 0 60px #2681ff, 0 0 70px #2681ff, 0 0 80px #2681ff;
+  }
+}
+
+.footer{
+	height:50px;
+	width:100%;
+	background-color: white;
+}
+
+#footerTag{
+	font-size:20px;
+}
