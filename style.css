@@ -65,6 +65,7 @@ a{
 	border:1px solid black;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	height:400px;
 	width:100%;
 }
@@ -84,12 +85,12 @@ a:hover {
 }
 
 #p3{
-	background-image: url('https://res.cloudinary.com/kinskin/image/upload/v1568461249/Screenshot_2019-09-14_at_7.38.31_PM_weug2j.png');
+	background-image: url('https://res.cloudinary.com/kinskin/image/upload/v1569473759/sneaks_ss_tk19gp');
 }
 
 
 #p4{
-	background-image: url('https://res.cloudinary.com/kinskin/image/upload/v1568462128/Screenshot_2019-09-14_at_7.54.12_PM_vktmgy.png');
+	background-image: url('https://res.cloudinary.com/kinskin/image/upload/v1569474279/clickboard_ss_c8aanx');
 }
 
 #p2:hover #title2, #p3:hover #title3, #p4:hover #title4{
