@@ -4,7 +4,7 @@ body{
 }
 
 .banner{
-	background-image: url("https://technosoftacademy.io/wp-content/uploads/2018/08/web-developement-banner.png");
+	background-image: url("https://res.cloudinary.com/kinskin/image/upload/v1570020465/portfoliobanner_yd1yv0");
 	background-size: cover;
 	background-position: center;
 	height:300px;
@@ -43,13 +43,14 @@ p,i{
 	color: black;
 }
 
+
 .skill{
 	margin-top:20px;
 	margin-left:10px;
 	color:white;
 }
 
-#title2, #title3, #title4{
+#title2, #title3, #title4, #title5{
 	display:none;
 	color:yellow;
 	margin: auto;
@@ -58,16 +59,18 @@ p,i{
 #p{
 	margin-bottom:20px;
 }
+
 a{
 	display: inline-block;
 }
-#p2, #p3, #p4 {
+
+#p2, #p3, #p4, #p5{
 	border:1px solid black;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	height:400px;
-	width:100%;
+	width:600px;
 }
 
 a {
@@ -93,7 +96,11 @@ a:hover {
 	background-image: url('https://res.cloudinary.com/kinskin/image/upload/v1569474279/clickboard_ss_c8aanx');
 }
 
-#p2:hover #title2, #p3:hover #title3, #p4:hover #title4{
+#p5{
+	background-image: url('https://res.cloudinary.com/kinskin/image/upload/v1570019547/foosballscoreboard_tmywx3');
+}
+
+#p2:hover #title2, #p3:hover #title3, #p4:hover #title4, #p5:hover #title5{
 	display:block;
 	-webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
